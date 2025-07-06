@@ -7,7 +7,7 @@ const TaskForm = ({taskInfo}) => {
         if(taskName.trim()){
             taskInfo(taskName)
         }
-        setTaskName("")
+        
         
     }
 
